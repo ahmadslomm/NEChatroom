@@ -4,13 +4,13 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:voiceroomkit_ui/generated/l10n.dart';
 import 'package:voiceroomkit_ui/utils/nav_utils.dart';
 import 'package:voiceroomkit_ui/config/app_config.dart';
 import 'package:voiceroomkit_ui/constants/asset_name.dart';
 import 'package:voiceroomkit_ui/constants/colors.dart';
 import 'package:voiceroomkit_ui/constants/dimem.dart';
-import 'package:package_info/package_info.dart';
 import 'package:netease_roomkit/netease_roomkit.dart';
 
 import '../constants/servers.dart';

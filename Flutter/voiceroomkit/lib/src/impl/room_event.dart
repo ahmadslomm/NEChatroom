@@ -23,7 +23,7 @@ class _NEVoiceRoomEvent extends NERoomEventCallback with _AloggerMixin {
     _voiceRoomKit._notifyMembersJoin(members);
   }
 
-  void _roomEnd(NERoomEndReason reason) {
-    _voiceRoomKit._notifyRoomEnd(reason);
+  void _roomEnd(NERoomEndReason reason, String? extra) {
+    _voiceRoomKit._notifyRoomEnd(reason, extra);
   }
 }

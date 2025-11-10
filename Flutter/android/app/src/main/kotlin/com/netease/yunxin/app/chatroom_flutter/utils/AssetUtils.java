@@ -2,7 +2,7 @@
 // Use of this source code is governed by a MIT license that can be
 // found in the LICENSE file.
 
-package com.netease.voiceroomkit.utils;
+package com.netease.yunxin.app.chatroom_flutter.utils;
 
 import android.content.res.AssetManager;
 import android.util.Log;

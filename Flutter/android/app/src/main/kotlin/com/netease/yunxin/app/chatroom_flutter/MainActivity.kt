@@ -4,7 +4,7 @@
  * found in the LICENSE file.
  */
 
-package com.netease.voiceroomkit
+package com.netease.yunxin.app.chatroom_flutter
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -38,7 +38,7 @@ class SeatViewModel extends ChangeNotifier {
   bool get isAnchor => SeatUtil.isAnchor();
   NEVoiceRoomEventCallback? eventCallback;
   EventBus eventBus = EventBus();
-  StreamSubscription<ConnectivityResult>? _networkSubscription;
+  StreamSubscription<List<ConnectivityResult>>? _networkSubscription;
 
   bool selfSeatMuted = false;
   bool showApplySeatListUI = false;
@@ -413,8 +413,8 @@ class SeatViewModel extends ChangeNotifier {
   void _addNetworkListener() {
     _networkSubscription = Connectivity()
         .onConnectivityChanged
-        .listen((ConnectivityResult result) {
-      if (result == ConnectivityResult.none) {
+        .listen((List<ConnectivityResult> result) {
+      if (result[0] == ConnectivityResult.none) {
         VoiceRoomKitLog.i(tag, "network is not available");
       } else {
         VoiceRoomKitLog.i(tag, "network is available");

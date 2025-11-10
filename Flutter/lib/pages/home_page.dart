@@ -6,7 +6,6 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:netease_voiceroomkit/netease_voiceroomkit.dart';
-import 'package:restart_app/restart_app.dart';
 import 'package:voiceroomkit_ui/base/data_center.dart';
 import 'package:voiceroomkit_ui/base/global_preferences.dart';
 import 'package:voiceroomkit_ui/generated/l10n.dart';
@@ -462,7 +461,7 @@ class _HomePageRouteState extends LifecycleBaseState<HomePageRoute> {
         AuthManager().logout();
         await NEVoiceRoomKit.instance.logout();
         if (Platform.isAndroid) {
-          Restart.restartApp();
+          exit(0);
         } else {
           exit(0);
         }

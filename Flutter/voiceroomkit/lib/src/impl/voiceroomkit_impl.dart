@@ -1005,7 +1005,7 @@ class _VoiceRoomKitImpl extends NEVoiceRoomKit with _AloggerMixin {
     }
   }
 
-  void _notifyRoomEnd(NERoomEndReason reason) {
+  void _notifyRoomEnd(NERoomEndReason reason, String? extra) {
     for (var callback in _eventCallbacks.copy()) {
       callback.roomEndedCallback
           ?.call(ModelConvertUtil.handleRoomEndReason(reason));

@@ -2,8 +2,8 @@
 // Use of this source code is governed by a MIT license that can be
 // found in the LICENSE file.
 
-import 'package:device_info/device_info.dart';
-import 'package:package_info/package_info.dart';
+import 'package:device_info_plus/device_info_plus.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:voiceroomkit_ui/base/device_manager.dart';
 
 class AppConfig {
@@ -78,7 +78,7 @@ class AppConfig {
       'tags': build.tags,
       'type': build.type,
       'isPhysicalDevice': build.isPhysicalDevice,
-      'androidId': build.androidId
+      'androidId': build.id
     };
   }
 

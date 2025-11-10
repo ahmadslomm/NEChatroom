@@ -13,13 +13,13 @@ class NetUtil {
 
   NetUtil._internal();
 
-  static ConnectivityResult globalNetWork = ConnectivityResult.none;
+  static List<ConnectivityResult> globalNetWork = [ConnectivityResult.none];
 
   void addListener() {
     isConnectedType();
 
     ///netWork
-    Connectivity().onConnectivityChanged.listen((ConnectivityResult result) {
+    Connectivity().onConnectivityChanged.listen((List<ConnectivityResult> result) {
       globalNetWork = result;
     });
   }

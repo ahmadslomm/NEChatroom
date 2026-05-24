@@ -5,8 +5,8 @@
 package com.netease.yunxin.kit.entertainment.common.utils;
 
 import android.content.Context;
+import android.widget.Toast;
 import com.netease.yunxin.kit.alog.ALog;
-import com.netease.yunxin.kit.common.ui.utils.ToastUtils;
 import com.netease.yunxin.kit.common.utils.NetworkUtils;
 import com.netease.yunxin.kit.entertainment.common.R;
 
@@ -18,12 +18,10 @@ public class NetUtils {
       ALog.e(TAG, "checkNetwork but context == null");
       return false;
     }
-
     if (isConnected()) {
       return true;
     } else {
-      ToastUtils.INSTANCE.showShortToast(
-          context.getApplicationContext(), context.getString(R.string.common_network_error));
+      Toast.makeText(context.getApplicationContext(), R.string.common_network_error, Toast.LENGTH_SHORT).show();
       return false;
     }
   }

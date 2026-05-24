@@ -13,6 +13,7 @@ android {
     namespace = "com.netease.yunxin.kit.ordersong.ui"
     compileSdk = 31
     buildFeatures {
+        buildConfig = true
         viewBinding = true
     }
 }

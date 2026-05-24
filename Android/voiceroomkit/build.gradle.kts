@@ -14,6 +14,7 @@ android {
     compileSdk = 31
     namespace = "com.netease.yunxin.kit.voiceroomkit"
     buildFeatures {
+        buildConfig = true
         viewBinding = true
     }
 }

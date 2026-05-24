@@ -14,6 +14,7 @@ android {
     compileSdk = 31
     namespace = "com.netease.yunxin.kit.entertainment.common"
     buildFeatures {
+        buildConfig = true
         viewBinding = true
     }
 }

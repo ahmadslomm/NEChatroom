@@ -37,3 +37,13 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.9.3")
     implementation(project(":entertainment:entertainment-common"))
 }
+
+android {
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}

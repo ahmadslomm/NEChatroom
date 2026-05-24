@@ -54,3 +54,13 @@ dependencies {
     implementation("com.netease.yunxin.kit.copyrightedmedia:copyrightedmedia:1.7.0")
 
 }
+
+android {
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}

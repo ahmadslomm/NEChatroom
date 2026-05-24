@@ -10,6 +10,7 @@ plugins {
 }
 
 android {
+    namespace = "com.netease.yunxin.kit.entertainment.common"
     compileSdk = 31
     namespace = "com.netease.yunxin.kit.entertainment.common"
     buildFeatures {

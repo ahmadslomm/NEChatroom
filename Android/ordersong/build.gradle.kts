@@ -10,6 +10,7 @@ plugins {
 }
 
 android {
+    namespace = "com.netease.yunxin.kit.ordersong"
     compileSdk = 31
     buildFeatures {
         viewBinding = true

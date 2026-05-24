@@ -10,6 +10,7 @@ plugins {
 }
 
 android {
+    namespace = "com.netease.yunxin.kit.voiceroomkit"
     compileSdk = 31
     namespace = "com.netease.yunxin.kit.voiceroomkit"
     buildFeatures {

@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <declare-styleable name="CircleImageView">
         <attr name="civ_border_width" format="dimension" />
         <attr name="civ_border_color" format="color" />
@@ -48,9 +48,6 @@
         <item name="android:windowIsTranslucent">false</item>
     </style>
 
-</resources>
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
     <style name="Animation" parent="@android:style/Animation.Activity">
         <item name="android:windowEnterAnimation">@anim/anim_enter</item>
         <item name="android:windowExitAnimation">@anim/anim_exit</item>

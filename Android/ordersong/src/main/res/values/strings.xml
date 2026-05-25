@@ -16,4 +16,5 @@
     <string name="song_state_playing">正在播放</string>
     <string name="nobody_ordered">还没有人点歌哦</string>
     <string name="order_song">点歌</string>
+    <string name="singer">%s</string>
 </resources>

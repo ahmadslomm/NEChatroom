@@ -119,4 +119,6 @@
     <string name="app_permission_tip_microphone_content">Please allow microphone permission</string>
     <string name="click_create_room_tips">Click to create room</string>
     <string name="ec_in_the_call_tips">In call</string>
+    <string name="need_permission_audio">Please allow audio permission</string>
+    <string name="network_error">Network error, please check your connection</string>
 </resources>

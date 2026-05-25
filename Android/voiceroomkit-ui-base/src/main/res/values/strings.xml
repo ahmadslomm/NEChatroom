@@ -114,8 +114,9 @@
 
 
 
-</resources>
+
     <string name="app_permission_tip_microphone_title">Microphone Permission</string>
     <string name="app_permission_tip_microphone_content">Please allow microphone permission</string>
     <string name="click_create_room_tips">Click to create room</string>
     <string name="ec_in_the_call_tips">In call</string>
+</resources>
